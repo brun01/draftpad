@@ -32,20 +32,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		62DA5BDB18847646002ABF4C /* oie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62DA5BDB18847646002ABF4C /* draftpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = draftpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DA5BDE18847646002ABF4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		62DA5BE018847646002ABF4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		62DA5BE218847646002ABF4C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		62DA5BE618847646002ABF4C /* oie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "oie-Info.plist"; sourceTree = "<group>"; };
+		62DA5BE618847646002ABF4C /* draftpad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "draftpad-Info.plist"; sourceTree = "<group>"; };
 		62DA5BE818847646002ABF4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62DA5BEA18847646002ABF4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		62DA5BEC18847646002ABF4C /* oie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "oie-Prefix.pch"; sourceTree = "<group>"; };
+		62DA5BEC18847646002ABF4C /* draftpad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "draftpad-Prefix.pch"; sourceTree = "<group>"; };
 		62DA5BED18847646002ABF4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		62DA5BEE18847646002ABF4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		62DA5BF018847646002ABF4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		62DA5BF618847646002ABF4C /* oieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62DA5BF618847646002ABF4C /* draftpadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = draftpadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DA5BF718847646002ABF4C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		62DA5BFF18847646002ABF4C /* oieTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "oieTests-Info.plist"; sourceTree = "<group>"; };
+		62DA5BFF18847646002ABF4C /* draftpadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "draftpadTests-Info.plist"; sourceTree = "<group>"; };
 		62DA5C0118847646002ABF4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62DA5C0318847646002ABF4C /* oieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oieTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,8 +87,8 @@
 		62DA5BDC18847646002ABF4C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				62DA5BDB18847646002ABF4C /* oie.app */,
-				62DA5BF618847646002ABF4C /* oieTests.xctest */,
+				62DA5BDB18847646002ABF4C /* draftpad.app */,
+				62DA5BF618847646002ABF4C /* draftpadTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,10 +118,10 @@
 		62DA5BE518847646002ABF4C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				62DA5BE618847646002ABF4C /* oie-Info.plist */,
+				62DA5BE618847646002ABF4C /* draftpad-Info.plist */,
 				62DA5BE718847646002ABF4C /* InfoPlist.strings */,
 				62DA5BEA18847646002ABF4C /* main.m */,
-				62DA5BEC18847646002ABF4C /* oie-Prefix.pch */,
+				62DA5BEC18847646002ABF4C /* draftpad-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 		62DA5BFE18847646002ABF4C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				62DA5BFF18847646002ABF4C /* oieTests-Info.plist */,
+				62DA5BFF18847646002ABF4C /* draftpadTests-Info.plist */,
 				62DA5C0018847646002ABF4C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -147,9 +147,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		62DA5BDA18847646002ABF4C /* oie */ = {
+		62DA5BDA18847646002ABF4C /* draftpad */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62DA5C0718847646002ABF4C /* Build configuration list for PBXNativeTarget "oie" */;
+			buildConfigurationList = 62DA5C0718847646002ABF4C /* Build configuration list for PBXNativeTarget "draftpad" */;
 			buildPhases = (
 				62DA5BD718847646002ABF4C /* Sources */,
 				62DA5BD818847646002ABF4C /* Frameworks */,
@@ -159,14 +159,14 @@
 			);
 			dependencies = (
 			);
-			name = oie;
+			name = draftpad;
 			productName = oie;
-			productReference = 62DA5BDB18847646002ABF4C /* oie.app */;
+			productReference = 62DA5BDB18847646002ABF4C /* draftpad.app */;
 			productType = "com.apple.product-type.application";
 		};
-		62DA5BF518847646002ABF4C /* oieTests */ = {
+		62DA5BF518847646002ABF4C /* draftpadTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62DA5C0A18847646002ABF4C /* Build configuration list for PBXNativeTarget "oieTests" */;
+			buildConfigurationList = 62DA5C0A18847646002ABF4C /* Build configuration list for PBXNativeTarget "draftpadTests" */;
 			buildPhases = (
 				62DA5BF218847646002ABF4C /* Sources */,
 				62DA5BF318847646002ABF4C /* Frameworks */,
@@ -177,9 +177,9 @@
 			dependencies = (
 				62DA5BFC18847646002ABF4C /* PBXTargetDependency */,
 			);
-			name = oieTests;
+			name = draftpadTests;
 			productName = oieTests;
-			productReference = 62DA5BF618847646002ABF4C /* oieTests.xctest */;
+			productReference = 62DA5BF618847646002ABF4C /* draftpadTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +196,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 62DA5BD618847646002ABF4C /* Build configuration list for PBXProject "oie" */;
+			buildConfigurationList = 62DA5BD618847646002ABF4C /* Build configuration list for PBXProject "draftpad" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -208,8 +208,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				62DA5BDA18847646002ABF4C /* oie */,
-				62DA5BF518847646002ABF4C /* oieTests */,
+				62DA5BDA18847646002ABF4C /* draftpad */,
+				62DA5BF518847646002ABF4C /* draftpadTests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,7 +257,7 @@
 /* Begin PBXTargetDependency section */
 		62DA5BFC18847646002ABF4C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 62DA5BDA18847646002ABF4C /* oie */;
+			target = 62DA5BDA18847646002ABF4C /* draftpad */;
 			targetProxy = 62DA5BFB18847646002ABF4C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -362,9 +362,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "oie/oie-Prefix.pch";
-				INFOPLIST_FILE = "oie/oie-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "oie/draftpad-Prefix.pch";
+				INFOPLIST_FILE = "oie/draftpad-Info.plist";
+				PRODUCT_NAME = draftpad;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -375,9 +375,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "oie/oie-Prefix.pch";
-				INFOPLIST_FILE = "oie/oie-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "oie/draftpad-Prefix.pch";
+				INFOPLIST_FILE = "oie/draftpad-Info.plist";
+				PRODUCT_NAME = draftpad;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -398,8 +398,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "oieTests/oieTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "oieTests/draftpadTests-Info.plist";
+				PRODUCT_NAME = draftpadTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -417,8 +417,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "oie/oie-Prefix.pch";
-				INFOPLIST_FILE = "oieTests/oieTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "oieTests/draftpadTests-Info.plist";
+				PRODUCT_NAME = draftpadTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -427,7 +427,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		62DA5BD618847646002ABF4C /* Build configuration list for PBXProject "oie" */ = {
+		62DA5BD618847646002ABF4C /* Build configuration list for PBXProject "draftpad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62DA5C0518847646002ABF4C /* Debug */,
@@ -436,7 +436,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62DA5C0718847646002ABF4C /* Build configuration list for PBXNativeTarget "oie" */ = {
+		62DA5C0718847646002ABF4C /* Build configuration list for PBXNativeTarget "draftpad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62DA5C0818847646002ABF4C /* Debug */,
@@ -444,7 +444,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		62DA5C0A18847646002ABF4C /* Build configuration list for PBXNativeTarget "oieTests" */ = {
+		62DA5C0A18847646002ABF4C /* Build configuration list for PBXNativeTarget "draftpadTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62DA5C0B18847646002ABF4C /* Debug */,
