@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  oie
+//  Draftpad
 //
 //  Created by Bruno Fernandes on 13/01/14.
 //  Copyright (c) 2014 Paper Street Apps. All rights reserved.

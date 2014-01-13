@@ -1,6 +1,6 @@
 //
-//  oieTests.m
-//  oieTests
+//  DraftpadTests.m
+//  DraftpadTests
 //
 //  Created by Bruno Fernandes on 13/01/14.
 //  Copyright (c) 2014 Paper Street Apps. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface oieTests : XCTestCase
+@interface DraftpadTests : XCTestCase
 
 @end
 
-@implementation oieTests
+@implementation DraftpadTests
 
 - (void)setUp
 {
