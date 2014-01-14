@@ -19,6 +19,7 @@
 		62698CF2188478A900B8A4B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62698CDA188478A900B8A4B2 /* UIKit.framework */; };
 		62698CFA188478A900B8A4B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62698CF8188478A900B8A4B2 /* InfoPlist.strings */; };
 		62698CFC188478A900B8A4B2 /* DraftpadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62698CFB188478A900B8A4B2 /* DraftpadTests.m */; };
+		D31337EF18857515007AAEAF /* nin_top_albums.json in Resources */ = {isa = PBXBuildFile; fileRef = D31337EE18857515007AAEAF /* nin_top_albums.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		62698CF7188478A900B8A4B2 /* DraftpadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DraftpadTests-Info.plist"; sourceTree = "<group>"; };
 		62698CF9188478A900B8A4B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62698CFB188478A900B8A4B2 /* DraftpadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DraftpadTests.m; sourceTree = "<group>"; };
+		D31337EE18857515007AAEAF /* nin_top_albums.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nin_top_albums.json; path = Resources/nin_top_albums.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				62698CE5188478A900B8A4B2 /* AppDelegate.h */,
 				62698CE6188478A900B8A4B2 /* AppDelegate.m */,
 				62698CE8188478A900B8A4B2 /* Images.xcassets */,
+				D31337ED188574FC007AAEAF /* Resources */,
 				62698CDD188478A900B8A4B2 /* Supporting Files */,
 			);
 			path = Draftpad;
@@ -142,6 +145,14 @@
 				62698CF8188478A900B8A4B2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D31337ED188574FC007AAEAF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D31337EE18857515007AAEAF /* nin_top_albums.json */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62698CE1188478A900B8A4B2 /* InfoPlist.strings in Resources */,
+				D31337EF18857515007AAEAF /* nin_top_albums.json in Resources */,
 				62698CE9188478A900B8A4B2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +455,7 @@
 				62698D01188478A900B8A4B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62698D02188478A900B8A4B2 /* Build configuration list for PBXNativeTarget "DraftpadTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +464,7 @@
 				62698D04188478A900B8A4B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
