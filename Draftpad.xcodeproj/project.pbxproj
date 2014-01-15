@@ -20,6 +20,7 @@
 		62698CFA188478A900B8A4B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62698CF8188478A900B8A4B2 /* InfoPlist.strings */; };
 		62698CFC188478A900B8A4B2 /* DraftpadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62698CFB188478A900B8A4B2 /* DraftpadTests.m */; };
 		D31337EF18857515007AAEAF /* nin_top_albums.json in Resources */ = {isa = PBXBuildFile; fileRef = D31337EE18857515007AAEAF /* nin_top_albums.json */; };
+		D34DE30A1885DB49009FC685 /* DPParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D34DE3091885DB49009FC685 /* DPParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		62698CF9188478A900B8A4B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62698CFB188478A900B8A4B2 /* DraftpadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DraftpadTests.m; sourceTree = "<group>"; };
 		D31337EE18857515007AAEAF /* nin_top_albums.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = nin_top_albums.json; path = Resources/nin_top_albums.json; sourceTree = "<group>"; };
+		D34DE3081885DB49009FC685 /* DPParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPParser.h; path = Classes/DPParser.h; sourceTree = "<group>"; };
+		D34DE3091885DB49009FC685 /* DPParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPParser.m; path = Classes/DPParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				62698CE8188478A900B8A4B2 /* Images.xcassets */,
 				D31337ED188574FC007AAEAF /* Resources */,
 				62698CDD188478A900B8A4B2 /* Supporting Files */,
+				D34DE3081885DB49009FC685 /* DPParser.h */,
+				D34DE3091885DB49009FC685 /* DPParser.m */,
 			);
 			path = Draftpad;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62698CE7188478A900B8A4B2 /* AppDelegate.m in Sources */,
+				D34DE30A1885DB49009FC685 /* DPParser.m in Sources */,
 				62698CE3188478A900B8A4B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
