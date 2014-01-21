@@ -13,3 +13,13 @@
 @property (strong, nonatomic) UIWindow *window;
 
 @end
+
+@interface DPAAlbum : NSObject
+
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *artist;
+@property (nonatomic, strong) NSString *tracks;
+@property (nonatomic, strong) NSString *image;
+@property (nonatomic, strong) NSString *url;
+
+@end
