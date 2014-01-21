@@ -12,7 +12,7 @@
 
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *artist;
-@property (nonatomic, strong) NSString *tracks;
+@property (nonatomic, strong) NSArray *tracks;
 @property (nonatomic, strong) NSString *image;
 @property (nonatomic, strong) NSString *url;
 

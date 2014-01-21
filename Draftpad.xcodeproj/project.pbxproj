@@ -116,9 +116,9 @@
 			isa = PBXGroup;
 			children = (
 				62698CE5188478A900B8A4B2 /* AppDelegate.h */,
+				62698CE6188478A900B8A4B2 /* AppDelegate.m */,
 				621AB65B188EC5D400BF63B1 /* DPAAlbum.h */,
 				621AB65C188EC5D400BF63B1 /* DPAAlbum.m */,
-				62698CE6188478A900B8A4B2 /* AppDelegate.m */,
 				62698CE8188478A900B8A4B2 /* Images.xcassets */,
 				D31337ED188574FC007AAEAF /* Resources */,
 				62698CDD188478A900B8A4B2 /* Supporting Files */,
