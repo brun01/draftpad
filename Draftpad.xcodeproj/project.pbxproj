@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		621AB65D188EC5D400BF63B1 /* DPAAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 621AB65C188EC5D400BF63B1 /* DPAAlbum.m */; };
 		62698CD7188478A900B8A4B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62698CD6188478A900B8A4B2 /* Foundation.framework */; };
 		62698CD9188478A900B8A4B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62698CD8188478A900B8A4B2 /* CoreGraphics.framework */; };
 		62698CDB188478A900B8A4B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62698CDA188478A900B8A4B2 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		621AB65B188EC5D400BF63B1 /* DPAAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPAAlbum.h; path = Classes/DPAAlbum.h; sourceTree = "<group>"; };
+		621AB65C188EC5D400BF63B1 /* DPAAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPAAlbum.m; path = Classes/DPAAlbum.m; sourceTree = "<group>"; };
 		62698CD3188478A900B8A4B2 /* Draftpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Draftpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62698CD6188478A900B8A4B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		62698CD8188478A900B8A4B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				62698CE5188478A900B8A4B2 /* AppDelegate.h */,
+				621AB65B188EC5D400BF63B1 /* DPAAlbum.h */,
+				621AB65C188EC5D400BF63B1 /* DPAAlbum.m */,
 				62698CE6188478A900B8A4B2 /* AppDelegate.m */,
 				62698CE8188478A900B8A4B2 /* Images.xcassets */,
 				D31337ED188574FC007AAEAF /* Resources */,
@@ -259,6 +264,7 @@
 				62698CE7188478A900B8A4B2 /* AppDelegate.m in Sources */,
 				D34DE30A1885DB49009FC685 /* DPParser.m in Sources */,
 				62698CE3188478A900B8A4B2 /* main.m in Sources */,
+				621AB65D188EC5D400BF63B1 /* DPAAlbum.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
