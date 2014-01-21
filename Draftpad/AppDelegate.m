@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DPAAlbum.h"
 
 @implementation AppDelegate
 
@@ -28,6 +29,7 @@
     //O ponto aqui é entender que essa linha abaixo chama o método
     //que está implementado na linha 35.
     [self firstExample];
+    [self secondExample];
     
     return YES;
 }
@@ -76,6 +78,94 @@
     //Essa é a primeira coisa que vc tem qu se acostumar.
     //Veja no console o conteúdo do nosso dicionário!
     NSLog(@"%@",dictionary);
+}
+
+- (void)secondExample
+{
+    /*
+     Para que possamos usar uma classe no nosso código, precisamos usar o #import
+     (veja lá em cima, na linha 10). Caso não coloquemos o #import, vamos ter um erro
+     de compilação, onde o nosso querido LLVM falaria: "Não sei o que significa DPAAlbum"
+     */
+    
+    /*
+     Pré-ARC, utilizávamos 2 passos: alocação e inicialização. Ou seja, escreveríamos
+     nosso código dessa forma:
+     
+     DPAAlbum *album = [[DPAAlbum alloc] init];
+     
+     que é a mesma coisa que: (veja se faz sentido pra você)
+     DPAAlbum *album = [DPAAlbum alloc];
+     album = [album init];
+     
+     Mas com ARC isso fica um pouco fora de contexto, já que não precisamos mais
+     ficar prestando atenção nos objetos que alocamos. Então, muita gente tem preferido,
+     ao invés de usar alloc e init, usar simplesmente o método +new, que é a mesma coisa:
+     */
+    DPAAlbum *album = [DPAAlbum new];
+    
+    /*
+     agora temos um objeto do tipo DPAAlbum alocado e inicializado na nossa variável local "album".
+     variável local = variável que vive dentro do escopo de um método.
+     Vendo o .h de DPAAlbum, sabemos que essa classe possui algumas properties (que por enquanto
+     são todas do tipo NSString). Para *setar* essas propriedades, podemos usar os métodos que
+     o LLVM cria automaticamente para nós (os setters). Veja:
+     */
+    [album setName:@"Let Go"];
+    [album setArtist:@"Avril Lavigne"];
+    [album setImage:@"qualquer_coisa.png"];
+    [album setUrl:@"https://www.facebook.com/AvrilOurPrincess"];
+    [album setTracks:@"X Y Z"];
+    
+    /*
+     Em muitas linguagens (tipo JAVA), conseguimos acessar as iVars diretamente.
+     O Objective-C proíbe isso. Ou seja, **só conseguimos acessar iVars de um objeto
+     de duas formas: 1) usando métodos (como, por exemplo, os acessor methods) ou
+     2) de dentro da própria implementação da classe. Isso é o encapsulamento.
+     
+     No JAVA, acessamos as iVars diretamente usando a dot notation. Algo desse tipo:
+     */
+    album.name = @"Under My Skin";
+    
+    /*
+     Porém, em Objective-C o compilador SUBSTITUI esse nosso código. Ou seja
+     o código acima é EXATAMENTE a mesma coisa que:
+     (isso é bem importante)
+     */
+    [album setName:@"Under My Skin"];
+    
+    /*
+     Da mesma forma, usamos os getters para acessar as variáveis. Em 90% das linguages,
+     os getters seguem a mesma notação dos setters (algo do tipo [album getName]). 
+     Em Objective-C, por causa da forma como se lê o código, o "get" não existe. Então,
+     para acessar uma property, fazemos (note que o método criado tem o mesmo nome da
+     própria property):
+     */
+    NSString *albumName = [album name];
+    
+    /*
+     E, usando a dot notation, podemos fazer também:
+     LEMBRE-SE: estamos chamando um método -name ! NÃO estamos
+     acessando a iVar chamada "name" (como em outras linguagens)
+     */
+    
+    NSString *artistName = album.artist;
+    
+    /*
+     Perceba também que a dot notation é SETTER ou GETTER
+     dependendo de que lado do = ela está.
+     Antes do = ela é setter,
+     Depois do = ela é getter.
+     */
+    
+    /*
+     Logando nossas variáveis locais, apenas para você se 
+     acostumar com a notação do NSLog:
+     %@ = placeholder pra string
+     \n = line break
+     */
+    
+    NSLog(@"\nArtista: %@\nÁlbum: %@", artistName, albumName);
 }
 
 
