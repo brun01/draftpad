@@ -115,7 +115,7 @@
     [album setArtist:@"Avril Lavigne"];
     [album setImage:@"qualquer_coisa.png"];
     [album setUrl:@"https://www.facebook.com/AvrilOurPrincess"];
-    [album setTracks:@"X Y Z"];
+    [album setTracks:@[@"Track 1", @"Track 2", @"Track 3"]];
     
     /*
      Em muitas linguagens (tipo JAVA), conseguimos acessar as iVars diretamente.
